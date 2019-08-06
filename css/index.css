@@ -256,6 +256,8 @@ img {
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+  transition-duration: 2s;
+  transition-delay: 1s;
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
@@ -270,6 +272,9 @@ img {
   .home .content-section .img-content img {
     width: 100%;
   }
+}
+.home .img-content:hover {
+  transform: rotate(90deg);
 }
 .home .inverse-content {
   padding-bottom: 30px;
